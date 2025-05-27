@@ -1,10 +1,10 @@
 .college{
     width: 100%;
     min-height: 100vh;
-    background:linear-gradient(rgba(130, 188, 226, 0.3)), linear-gradient(rgba(130, 188, 226, 0.1)), url(../../assets/ime.jpg);
+    background:linear-gradient(rgba(130, 188, 226, 0.3)), url(../../assets/ime.jpg);
     background-size: cover;
     background-position: center;
-    color: white;
+    color: rgb(0, 0, 0);
     display: flex;
     align-items: center;
     justify-content: center;
