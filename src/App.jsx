@@ -8,6 +8,7 @@ import Campus from './components/Campus/Campus'
 import Reviews from './components/Review/Reviews'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
+import Gallery from './pages/Gallery'
 
 
 const App = () => {
@@ -16,16 +17,17 @@ const App = () => {
       <Navbar />
       <College />
       <div className="container">
-        <Title subTitle='Our Program' title='What We Offer'/>
+        <Title subTitle='Our Program' title='What We Offer' />
         <Program />
-        <About/>
-        <Title subTitle='Gallery' title='Campus Photos'/>
-        <Campus/>
-        <Title subTitle='Reviews' title='What Student Says'/>
-        <Reviews/>
-        <Title subTitle='Contact Us' title='Get In Touch'/>
-        <Contact/>
-        <Footer/>
+        <About />
+        <Title subTitle='Gallery' title='Campus Photos' />
+        <Campus />
+        <Title subTitle='Reviews' title='What Student Says' />
+        <Reviews />
+        <Title subTitle='Contact Us' title='Get In Touch' />
+        <Contact />
+        <Footer />
+        <Gallery/>
       </div>
     </div>
   )
