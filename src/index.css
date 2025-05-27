@@ -47,7 +47,7 @@ a{
   color: white;
 }
 
-@media (max-width: 1200px){
+/* @media (max-width: 1200px){
   .container{
     padding-left: 2.5%;
     padding-right: 2.5%;
@@ -56,4 +56,4 @@ a{
     padding: 14px 22px ;
   }
     
-}
+} */
