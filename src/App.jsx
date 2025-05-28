@@ -8,7 +8,6 @@ import Campus from './components/Campus/Campus'
 import Reviews from './components/Review/Reviews'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
-import Gallery from './pages/Gallery'
 
 
 const App = () => {
@@ -27,7 +26,6 @@ const App = () => {
         <Title subTitle='Contact Us' title='Get In Touch' />
         <Contact />
         <Footer />
-        <Gallery/>
       </div>
     </div>
   )

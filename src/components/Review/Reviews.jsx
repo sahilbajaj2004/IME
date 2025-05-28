@@ -10,7 +10,7 @@ import r4 from '../../assets/r4.jpg'
 
 const Reviews = () => {
     const slider = useRef();
-    const tx = useRef(0); // Persist the tx value
+    const tx = useRef(0);
 
     const slideForward = () => {
         if (tx.current > -50) {
